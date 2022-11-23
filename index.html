@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile Card Component</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+      rel="icon"
+      href="./Assets/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
 </head>
 <body>
     <div class="container">
-
+        <img id="backgroundTopCircle" src="Assets/bg-pattern-top.svg" alt="topCircle"> 
         <div class="profileCard">
             <div id="topCard"></div>
             <div id="middleCard">
-                <img src="Assets/image-profile.jpg" alt="profilePicture">
+                <p id="mainText"><span class="bold">Victor Crest</span><span class="ligth"> 26</span></p>
+                <p id="city">London</p>
+                <img id="profilePhoto" src="Assets/image-profile.jpg" alt="profilePicture">
             </div>
             <div id="bottomCard">
-                <div class="profileInfo"></div>
-                <div class="profileInfo"></div>
-                <div class="profileInfo"></div>
+                <div class="profileInfo">
+                    <p class="bottomInfo"><span class="bold">80K</span></p>
+                    <p class="bottomText">Followers</p>
+                </div>
+                <div class="profileInfo">
+                    <p class="bottomInfo"><span class="bold">803K</span></p>
+                    <p class="bottomText">Likes</p>
+                </div>
+                <div class="profileInfo">
+                    <p class="bottomInfo"><span class="bold">1.4K</span></p>
+                    <P class="bottomText">Photos</P>
+                </div>
             </div>
         </div>
-
+        <img id="backgroundBottomCircle" src="Assets/bg-pattern-bottom.svg" alt="topCircle">
     </div>
 </body>
 </html>

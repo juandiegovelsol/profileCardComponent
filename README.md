@@ -6,7 +6,7 @@ This is a solution to the third project of the Make It Real course.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Solution Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -23,7 +23,7 @@ Users should be able to:
 
 - Design a user profile card as close as the screenshot picture of the project.
 
-### Screenshot
+### Solution Screenshot
 
 ![Fullsize screen](./Assets/SolutionScreenshot.png)
 ![Mobile screen size](./Assets/MobileSolutionScreenshot.png)
